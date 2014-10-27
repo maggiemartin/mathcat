@@ -1,12 +1,15 @@
 
-var numOne = document.getElementById('num_one');
-var numTwo = document.getElementById('num_two');
+
 var calcButton = document.getElementById('calculateBtn');
+
+  var numOne = document.getElementById('num_one');
+  var numTwo = document.getElementById('num_two');
+
 var answer;
-var resultArea = document.getElementById("answer");
-var subtractButton = document.getElementById('subtractBtn')
-var multiplyButton = document.getElementById('multiplyBtn')
-var divideButton = document.getElementById('divideBtn')
+  var resultArea = document.getElementById("answer");
+      var subtractButton = document.getElementById('subtractBtn')
+      var multiplyButton = document.getElementById('multiplyBtn')
+      var divideButton = document.getElementById('divideBtn')
 
 
 calcButton.onclick = function(){
